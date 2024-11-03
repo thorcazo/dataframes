@@ -1,0 +1,62 @@
+---
+title: "Iris"
+author: "David Pastor"
+date: "2024-11-03"
+output: html_document
+---
+# Data frame de Iris
+
+```{r}
+df = iris
+head(df,10)
+```
+
+```{r}
+tail(df, 5)
+```
+# Otro dataframe llamado Orange
+```{r}
+df2 = Orange
+df2
+
+```
+
+# Obteniendo informacion del data frame
+```{r}
+str(df)
+# names(df)
+# rownames(df)
+dimnames(df) # Esto dará los nombre de la columnasy filas 
+```
+```{r}
+df$Petal.Length
+```
+```{r}
+df$Petal.Length[1:10]
+df$Species[1:10]
+```
+# Acceso al data frame
+
+```{r}
+print(df[1:10, ])
+print(df[1:10, 3:5])
+
+```
+```{r}
+head(Orange, 4)
+tail(Orange, 4)
+```
+
+
+```{r}
+Orange[Orange$circumference<=50,]
+```
+
+
+
+
+
+
+
+
+

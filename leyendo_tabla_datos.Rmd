@@ -1,0 +1,54 @@
+---
+title: "leyendo_tabla_datos"
+author: "David Pastor"
+date: "2024-11-03"
+output: html_document
+---
+
+# Leyendo tabla de datos
+read.table(): para definir un data frame a partir de una tabla de datos contenido en un fichero
+
+El nombre de las filas de winequality
+[58] "   1 - fixed acidity"               
+[59] "   2 - volatile acidity"   
+[60] "   3 - citric acid"
+[61] "   4 - residual sugar"     
+[62] "   5 - chlorides"  
+[63] "   6 - free sulfur dioxide"       
+[64] "   7 - total sulfur dioxide"
+[65] "   8 - density"
+[66] "   9 - pH"         
+[67] "   10 - sulphates"              
+[68] "   11 - alcohol"      
+[69] "   Output variable (based on sensory data): "        
+[70] "   12 - quality (score between 0 and 10)"    
+
+
+```{r}
+# Carga el archivo CSV y define los nombres de las columnas
+df <- read.csv(
+  "./winequality-red.csv",
+  header = FALSE,
+  col.names = c(
+    "fixed acidity", 
+    "volatile acidity", 
+    "citric acid", 
+    "residual sugar", 
+    "chlorides", 
+    "free sulfur dioxide", 
+    "total sulfur dioxide", 
+    "density", 
+    "pH", 
+    "sulphates", 
+    "alcohol", 
+    "quality"
+  ),
+  sep = ""
+)
+
+# Muestra el dataframe
+head(df,10)
+
+
+```
+
