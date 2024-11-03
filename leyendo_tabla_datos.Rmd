@@ -51,4 +51,15 @@ head(df,10)
 
 
 ```
+```{r}
+# Cargar un archivo CSV desde GitHub
+url_csv <- "https://raw.githubusercontent.com/thorcazo/dataframes/refs/heads/master/winequality-red.csv?token=GHSAT0AAAAAACZKWGDZY2Y6UFI6TF74TMMMZZHNQ4Q"
+df_csv <- read.csv(url_csv)
+
+# Mostrar el dataframe
+head(df_csv)
+
+```
+
+
 
