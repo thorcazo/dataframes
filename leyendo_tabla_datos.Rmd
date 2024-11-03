@@ -63,3 +63,13 @@ head(df_csv)
 
 
 
+# Factores en un DF
+
+```{r}
+url_paro = "https://raw.githubusercontent.com/thorcazo/dataframes/refs/heads/master/data_paro.csv?token=GHSAT0AAAAAACZKWGDZOSRAJ62HFAJH6KNQZZHOCDQ"
+df_paro = read.csv(url_paro)
+
+head(df_paro)
+```
+
+
