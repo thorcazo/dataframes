@@ -1,0 +1,269 @@
+{
+    "activities": [
+      {
+        "activity": "Create and follow a savings plan",
+        "type": "busywork",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "9366464",
+        "accessibility": 0.2,
+        "tags": ["finance", "planning"],
+        "resources": [
+          { "name": "Personal Finance Guide", "url": "https://example.com/finance-guide" }
+        ]
+      },
+      {
+        "activity": "Read a technical blog post",
+        "type": "education",
+        "participants": 1,
+        "price": 0,
+        "link": "https://example.com/tech-blog",
+        "key": "8273647",
+        "accessibility": 0.1,
+        "tags": ["learning", "tech"],
+        "resources": [
+          { "name": "Tech Blog", "url": "https://example.com/tech" }
+        ]
+      },
+      {
+        "activity": "Practice a new programming language",
+        "type": "busywork",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "1849372",
+        "accessibility": 0.3,
+        "tags": ["coding", "education"],
+        "resources": [
+          { "name": "Online Tutorial", "url": "https://example.com/tutorial" }
+        ]
+      },
+      {
+        "activity": "Cook a meal from another country",
+        "type": "cooking",
+        "participants": 2,
+        "price": 0.3,
+        "link": "https://example.com/international-recipes",
+        "key": "2736491",
+        "accessibility": 0.4,
+        "tags": ["food", "culture"],
+        "resources": [
+          { "name": "Recipe Book", "url": "https://example.com/recipes" },
+          { "name": "Spice Guide", "url": "https://example.com/spices" }
+        ]
+      },
+      {
+        "activity": "Take a short hike in nature",
+        "type": "recreational",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "8372645",
+        "accessibility": 0.2,
+        "tags": ["outdoors", "health"],
+        "resources": [
+          { "name": "Local Park Map", "url": "https://example.com/park-map" }
+        ]
+      },
+      {
+        "activity": "Write a short story",
+        "type": "recreational",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "3827461",
+        "accessibility": 0.1,
+        "tags": ["creative", "writing"],
+        "resources": [
+          { "name": "Writing Prompts", "url": "https://example.com/prompts" }
+        ]
+      },
+      {
+        "activity": "Organize a movie night with friends",
+        "type": "social",
+        "participants": 4,
+        "price": 0.2,
+        "link": "https://example.com/movie-suggestions",
+        "key": "1928374",
+        "accessibility": 0.4,
+        "tags": ["entertainment", "friends"],
+        "resources": [
+          { "name": "Movie Database", "url": "https://example.com/movies" },
+          { "name": "Snack Ideas", "url": "https://example.com/snacks" }
+        ]
+      },
+      {
+        "activity": "Volunteer at a local charity",
+        "type": "charity",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "2738495",
+        "accessibility": 0.5,
+        "tags": ["community", "help"],
+        "resources": [
+          { "name": "Charity Locator", "url": "https://example.com/charity-locator" }
+        ]
+      },
+      {
+        "activity": "Learn a new dance routine",
+        "type": "recreational",
+        "participants": 2,
+        "price": 0,
+        "link": "https://example.com/dance-tutorial",
+        "key": "7283642",
+        "accessibility": 0.3,
+        "tags": ["dance", "exercise"],
+        "resources": [
+          { "name": "Dance Tutorial", "url": "https://example.com/dance-tutorial" }
+        ]
+      },
+      {
+        "activity": "Start a daily journal",
+        "type": "busywork",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "8765349",
+        "accessibility": 0.2,
+        "tags": ["mental health", "reflection"],
+        "resources": [
+          { "name": "Journal Inspiration", "url": "https://example.com/journal-ideas" }
+        ]
+      },
+      {
+        "activity": "Plan a weekend getaway",
+        "type": "recreational",
+        "participants": 2,
+        "price": 0.6,
+        "link": "https://example.com/travel",
+        "key": "4738291",
+        "accessibility": 0.5,
+        "tags": ["travel", "leisure"],
+        "resources": [
+          { "name": "Travel Deals", "url": "https://example.com/deals" },
+          { "name": "Map Service", "url": "https://example.com/map" }
+        ]
+      },
+      {
+        "activity": "Create a family photo album",
+        "type": "busywork",
+        "participants": 3,
+        "price": 0.2,
+        "link": "",
+        "key": "1263748",
+        "accessibility": 0.3,
+        "tags": ["memories", "creativity"],
+        "resources": [
+          { "name": "Online Printing Service", "url": "https://example.com/printing" }
+        ]
+      },
+      {
+        "activity": "Try a new form of exercise",
+        "type": "relaxation",
+        "participants": 1,
+        "price": 0,
+        "link": "https://example.com/exercise-ideas",
+        "key": "0192837",
+        "accessibility": 0.2,
+        "tags": ["health", "fitness"],
+        "resources": [
+          { "name": "Workout Videos", "url": "https://example.com/videos" }
+        ]
+      },
+      {
+        "activity": "Meditate for 15 minutes",
+        "type": "relaxation",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "2847362",
+        "accessibility": 0.1,
+        "tags": ["mindfulness", "health"],
+        "resources": [
+          { "name": "Guided Meditation", "url": "https://example.com/meditation" }
+        ]
+      },
+      {
+        "activity": "Build a birdhouse",
+        "type": "nature",
+        "participants": 2,
+        "price": 0.1,
+        "link": "https://example.com/diy-birdhouse",
+        "key": "1928376",
+        "accessibility": 0.4,
+        "tags": ["DIY", "outdoors"],
+        "resources": [
+          { "name": "DIY Plans", "url": "https://example.com/diy-plans" }
+        ]
+      },
+      {
+        "activity": "Play a board game with family",
+        "type": "social",
+        "participants": 4,
+        "price": 0,
+        "link": "",
+        "key": "2847365",
+        "accessibility": 0.2,
+        "tags": ["family", "entertainment"],
+        "resources": [
+          { "name": "Board Game Suggestions", "url": "https://example.com/board-games" }
+        ]
+      },
+      {
+        "activity": "Write a handwritten letter to a friend",
+        "type": "social",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "8372619",
+        "accessibility": 0.2,
+        "tags": ["communication", "nostalgia"],
+        "resources": [
+          { "name": "Letter Writing Tips", "url": "https://example.com/letter-tips" }
+        ]
+      },
+      {
+        "activity": "Research your family tree",
+        "type": "education",
+        "participants": 1,
+        "price": 0,
+        "link": "https://example.com/genealogy",
+        "key": "9876543",
+        "accessibility": 0.3,
+        "tags": ["history", "personal"],
+        "resources": [
+          { "name": "Genealogy Database", "url": "https://example.com/family-history" }
+        ]
+      },
+      {
+        "activity": "Try a digital detox for one day",
+        "type": "busywork",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "7364521",
+        "accessibility": 0.1,
+        "tags": ["mental health", "self-care"],
+        "resources": [
+          { "name": "Digital Detox Tips", "url": "https://example.com/detox" }
+        ]
+      },
+      {
+        "activity": "Start a home garden",
+        "type": "nature",
+        "participants": 1,
+        "price": 0.4,
+        "link": "https://example.com/gardening",
+        "key": "5478293",
+        "accessibility": 0.4,
+        "tags": ["plants", "outdoors"],
+        "resources": [
+          { "name": "Gardening Guide", "url": "https://example.com/garden-guide" },
+          { "name": "Seed Supplier", "url": "https://example.com/seeds" }
+        ]
+      }
+    ]
+  }
+  
